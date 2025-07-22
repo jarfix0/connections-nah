@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Fish are Friends, not Connections.",
     "version": "1.0",
-    "description": "Every instance of connections on roblox's website becomes friend.",
+    "description": "Fixes roblox's connection problem",
     "permissions": [ "scripting" ],
     "content_scripts": [
         {
