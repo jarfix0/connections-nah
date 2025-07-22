@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Fish are Friends, not Connections.",
+    "version": "1.0",
+    "description": "Every instance of connections on roblox's website becomes friend.",
+    "permissions": [ "scripting" ],
+    "content_scripts": [
+        {
+            "matches": [ "*://*.roblox.com/*" ],
+            "js": [ "content.js" ],
+            "run_at": "document_idle"
+        }
+    ],
+    "icons": {
+        "48": "icon.png"
+    }
+}
